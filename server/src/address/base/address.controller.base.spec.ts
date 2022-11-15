@@ -27,6 +27,7 @@ const CREATE_INPUT = {
   city: "exampleCity",
   state: "exampleState",
   zip: 42,
+  colorType: "exampleColorType",
 };
 const CREATE_RESULT = {
   id: "exampleId",
@@ -37,6 +38,7 @@ const CREATE_RESULT = {
   city: "exampleCity",
   state: "exampleState",
   zip: 42,
+  colorType: "exampleColorType",
 };
 const FIND_MANY_RESULT = [
   {
@@ -48,6 +50,7 @@ const FIND_MANY_RESULT = [
     city: "exampleCity",
     state: "exampleState",
     zip: 42,
+    colorType: "exampleColorType",
   },
 ];
 const FIND_ONE_RESULT = {
@@ -59,6 +62,7 @@ const FIND_ONE_RESULT = {
   city: "exampleCity",
   state: "exampleState",
   zip: 42,
+  colorType: "exampleColorType",
 };
 
 const service = {
