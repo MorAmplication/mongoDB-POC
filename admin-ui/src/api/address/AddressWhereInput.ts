@@ -11,4 +11,5 @@ export type AddressWhereInput = {
   state?: StringNullableFilter;
   zip?: IntNullableFilter;
   customers?: CustomerListRelationFilter;
+  colorType?: StringNullableFilter;
 };
