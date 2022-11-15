@@ -54,6 +54,7 @@ model Address {
   state     String?
   zip       Int?
   customers Customer[]
+  colorType String?
 }
 
 model Product {

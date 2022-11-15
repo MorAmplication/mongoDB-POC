@@ -82,5 +82,16 @@ class AddressUpdateInput {
     nullable: true,
   })
   customers?: CustomerUpdateManyWithoutAddressesInput;
+
+  @ApiProperty({
+    required: false,
+    type: String,
+  })
+  @IsString()
+  @IsOptional()
+  @Field(() => String, {
+    nullable: true,
+  })
+  colorType?: string | null;
 }
 export { AddressUpdateInput };
