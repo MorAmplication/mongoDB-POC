@@ -59,6 +59,7 @@ export class AddressControllerBase {
         city: true,
         state: true,
         zip: true,
+        colorType: true,
       },
     });
   }
@@ -86,6 +87,7 @@ export class AddressControllerBase {
         city: true,
         state: true,
         zip: true,
+        colorType: true,
       },
     });
   }
@@ -114,6 +116,7 @@ export class AddressControllerBase {
         city: true,
         state: true,
         zip: true,
+        colorType: true,
       },
     });
     if (result === null) {
@@ -151,6 +154,7 @@ export class AddressControllerBase {
           city: true,
           state: true,
           zip: true,
+          colorType: true,
         },
       });
     } catch (error) {
@@ -187,6 +191,7 @@ export class AddressControllerBase {
           city: true,
           state: true,
           zip: true,
+          colorType: true,
         },
       });
     } catch (error) {
