@@ -7,4 +7,5 @@ export type AddressUpdateInput = {
   state?: string | null;
   zip?: number | null;
   customers?: CustomerUpdateManyWithoutAddressesInput;
+  colorType?: string | null;
 };

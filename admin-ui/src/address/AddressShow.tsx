@@ -25,6 +25,7 @@ export const AddressShow = (props: ShowProps): React.ReactElement => {
         <TextField label="City" source="city" />
         <TextField label="State" source="state" />
         <TextField label="Zip" source="zip" />
+        <TextField label="colorType" source="colorType" />
         <ReferenceManyField
           reference="Customer"
           target="AddressId"
