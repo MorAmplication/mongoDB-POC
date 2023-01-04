@@ -10,4 +10,5 @@ export type Address = {
   state: string | null;
   zip: number | null;
   customers?: Array<Customer>;
+  colorType: string | null;
 };
