@@ -9,4 +9,5 @@ export type AddressOrderByInput = {
   city?: SortOrder;
   state?: SortOrder;
   zip?: SortOrder;
+  colorType?: SortOrder;
 };
